@@ -1,0 +1,77 @@
+body {
+  background: #80c0eb;
+}
+.container {
+  width: 500px;
+  background: #282851;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 5rem auto;
+}
+.container h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.inputField {
+  width: 90%;
+  padding: 3px 1rem;
+  background: #3e3e5a;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.inputField input {
+  background: transparent;
+  padding: 10px;
+  color: rgba(161, 160, 160);
+  font-size: 1rem;
+  border: none;
+}
+.inputField::placeholder {
+  color: rgba(161, 160, 160);
+}
+.inputField button {
+  border-radius: 50%;
+  border: none;
+}
+button:hover {
+  transform: rotate(120deg);
+}
+.toDoList {
+  margin-top: 2rem;
+}
+.toDoList span {
+  color: rgba(161, 160, 160);
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.toDoList .list-items{
+  margin-top: 1rem;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  gap:10px;
+}
+.list-items .items{
+  background: #44446b;
+  border-radius: 10px;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  color: rgb(186,186,186);
+}
+input[type='checkbox']{
+  padding:5px;
+  cursor: pointer;
+}
+.items-text{
+  align-items: center;
+  display: flex;
+}
